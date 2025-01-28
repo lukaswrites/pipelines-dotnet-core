@@ -52,4 +52,5 @@ jobs:
         app-name: GitHubApp-47724851
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE  }}
         package: webapp
+        slot-name: ""
           
