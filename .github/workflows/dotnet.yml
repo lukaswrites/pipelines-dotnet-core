@@ -49,7 +49,7 @@ jobs:
     - name: Deploy web app
       uses: azure/webapps-deploy@v2
       with:
-        app-name: GitHubApp-47724851
+        app-name: mywebapp123lukaswrites
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE  }}
         package: webapp
         slot-name: ""
